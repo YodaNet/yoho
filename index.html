@@ -169,7 +169,7 @@
                     var exec = /(film\/|movie\/).*?([0-9]{3,7})\//gi.exec(title.value);
                     if (exec && exec[2]) {
                         yohoho.dataset.kinopoisk = exec[2];
-                        if (window.location.hostname === 'yohoho.cc') {
+                        if (window.location.hostname === 'https://yodanet.github.io/yoho/') {
                             window.location.href = 'https://yodanet.github.io/yoho/' + yohoho.dataset.kinopoisk;
                             return;
                         }
@@ -178,7 +178,7 @@
                     }
                 } else if (/^\d+$/.test(title.value)) {
                     yohoho.dataset.kinopoisk = title.value;
-                    if (window.location.hostname === 'yohoho.cc') {
+                    if (window.location.hostname === 'https://yodanet.github.io/yoho/') {
                         window.location.href = 'https://yodanet.github.io/yoho/' + yohoho.dataset.kinopoisk;
                         return;
                     }
@@ -186,7 +186,7 @@
                     document.title = 'КиноПоиск: ' + yohoho.dataset.kinopoisk;
                 } else {
                     yohoho.dataset.title = encodeURIComponent(title.value);
-                    if (window.location.hostname === 'yohoho.cc') {
+                    if (window.location.hostname === 'https://yodanet.github.io/yoho/') {
                         window.location.href = 'https://yodanet.github.io/yoho/' + yohoho.dataset.title;
                         return;
                     }
