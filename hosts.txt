@@ -21,8 +21,16 @@
 
 127.0.0.1  localhost
 ::1  localhost
-#[osb-apps.samsungqbe.com]
+#[blacklist samsung]
 127.0.0.1 osb-apps.samsungqbe.com
+127.0.0.1 config.samsungads.com
+127.0.0.1 gpm.samsungqbe.com
+127.0.0.1 log-config.samsungacr.com
+127.0.0.1 samsungacr.com
+127.0.0.1 samsungads.com
+127.0.0.1 samsungcloudsolution.com
+127.0.0.1 samsungcloudsolution.net
+127.0.0.1 samsungotn.net
 # [163.com]
 127.0.0.1 analytics.163.com
 127.0.0.1 crash.163.com
